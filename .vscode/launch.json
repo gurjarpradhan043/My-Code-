@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "repo",
+      "request": "launch",
+      "mainClass": "repo",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
       "name": "stage2",
       "request": "launch",
       "mainClass": "stage2",
