@@ -23,7 +23,6 @@ public class Task {
         isCompleted = completed;
     }
     public boolean isCompleted() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'isCompleted'");
     }
 }
