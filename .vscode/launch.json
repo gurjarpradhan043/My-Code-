@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gurja/OneDrive/Documents/Coding/My-Code-",
-      "program": "c:/Users/gurja/OneDrive/Documents/Coding/My-Code-/build/Debug/outDebug",
+      "cwd": "c:/Users/gurja/OneDrive/Documents/Coding/My-Code-/C Prac",
+      "program": "c:/Users/gurja/OneDrive/Documents/Coding/My-Code-/C Prac/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
