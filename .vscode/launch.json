@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "stage2",
+      "request": "launch",
+      "mainClass": "stage2",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "count",
+      "request": "launch",
+      "mainClass": "count",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
       "name": "test",
       "request": "launch",
       "mainClass": "test",
