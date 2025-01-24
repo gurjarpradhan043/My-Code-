@@ -12,3 +12,7 @@ print(f"sum of {a} and {b} is {a + b}")
 
 pi = 3.14159 
 print(f"pi rounded  to two decimal placec  is {pi:.2f}")
+
+
+for i in range(100):
+    print(i)
