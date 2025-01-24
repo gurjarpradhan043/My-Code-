@@ -3,6 +3,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "palindrome",
+      "request": "launch",
+      "mainClass": "palindrome",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "addInteger",
+      "request": "launch",
+      "mainClass": "problemSolving.addInteger",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "ListSorting",
+      "request": "launch",
+      "mainClass": "ListSorting",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "random",
+      "request": "launch",
+      "mainClass": "random",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "try1",
+      "request": "launch",
+      "mainClass": "try1",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "sol2",
+      "request": "launch",
+      "mainClass": "problemSolving.sol2",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "problemSolving.Solution",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "table",
+      "request": "launch",
+      "mainClass": "table",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "patternq",
+      "request": "launch",
+      "mainClass": "patternq",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "Bot",
+      "request": "launch",
+      "mainClass": "Bot",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
       "name": "repo",
       "request": "launch",
       "mainClass": "repo",

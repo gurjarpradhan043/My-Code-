@@ -1,5 +1,15 @@
 public class test {
     public static void main(String args[]) {
-        System.out.println("Hello world!");
+     
+        int age = 16;
+     
+
+      if(age >=18) {
+        System.out.println("You can drive ");
+      }else {
+        System.out.println("you can not drive ");
+      }
+      
+
     }
 }
