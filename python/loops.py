@@ -2,6 +2,13 @@
 # for number in numbers: 
 #     print(f"Number: {number}")
 
-name = "Pradhan"
+name = "pradhan"
 age = 19 
-print(f"my name is {name}, i am {age } year old  ")
+print(f"my name is {name}, i am {age} year old,and d is on {name.find('d')} index ")
+
+a = 10 
+b = 14
+print(f"sum of {a} and {b} is {a + b}") 
+
+pi = 3.14159 
+print(f"pi rounded  to two decimal placec  is {pi:.2f}")
