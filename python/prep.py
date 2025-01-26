@@ -14,5 +14,20 @@ pi = 3.14159
 print(f"pi rounded  to two decimal placec  is {pi:.2f}")
 
 
-for i in range(100):
+for i in range(5):
+    print(i)
+    
+    
+count = 0 
+while count < 5:
+    print("Hello")
+    count += 1
+    
+    square = lambda x: x*x
+print(square(5))
+
+
+for i in range(5):
+    if i == 3:
+        break
     print(i)

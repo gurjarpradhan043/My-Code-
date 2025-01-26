@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "arrayList",
+      "request": "launch",
+      "mainClass": "DSA.arrayList",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
+      "name": "sumTwoNumber",
+      "request": "launch",
+      "mainClass": "problemSolving.sumTwoNumber",
+      "projectName": "My-Code-_adbef695"
+    },
+    {
+      "type": "java",
       "name": "palindrome",
       "request": "launch",
       "mainClass": "palindrome",
