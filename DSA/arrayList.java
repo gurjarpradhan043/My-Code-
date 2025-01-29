@@ -16,6 +16,8 @@ public class arrayList {
 
         System.out.println(l);
 
+        //Get elements 
+        
 
     }
 }
