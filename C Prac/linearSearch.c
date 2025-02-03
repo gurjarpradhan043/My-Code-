@@ -1,30 +1,33 @@
+//wap to perform linear search
 #include <stdio.h>
 
 int main() {
-    int arr[10], i, Se, f = 0;
-
-    // Input elements into the array
-    for (i = 0; i < 10; i++) {
-        printf("Enter element %d: ", i + 1);
+    int n, i, searchElement, found = 0;
+    
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    
+    int arr[n];
+    
+    printf("Enter %d elements: \n", n);
+    for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    // Input the element to search for
+    
     printf("Enter the element to search: ");
-    scanf("%d", &Se);
-
-    // Perform linear search
-    for (i = 0; i < 10; i++) {
-        if (arr[i] == Se) {
-            printf("Element %d found at index %d\n", Se, i);
-            f = 1;
+    scanf("%d", &searchElement);
+    
+    for (i = 0; i < n; i++) {
+        if (arr[i] == searchElement) {
+            printf("Element %d found at position %d\n", searchElement, i + 1);
+            found = 1;
             break;
         }
     }
-
-    if (f == 0) {
-        printf("Element %d not found in the array\n", Se);
+    
+    if (!found) {
+        printf("Element %d not found in the array\n", searchElement);
     }
-
+    
     return 0;
 }
